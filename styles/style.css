@@ -1,0 +1,98 @@
+head {}
+
+body {
+    background-color: white;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+@font-face {
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/fonts/TruenoLt.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Trueno';
+    font-style: bold;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/fonts/TruenoBlk_1.otf') format('otf');
+}
+
+.container-carousel {
+    max-width: 1335px;
+    width: 48%;
+    max-height: 1025px;
+    height: 100%;
+    float: left;
+}
+
+.text01 h1 {
+    font-family: 'Trueno';
+    color: #394D72;
+    padding-right: 100px;
+    font-size: 70px;
+    text-align: right;
+    line-height: 0%;
+    float: right;
+    padding-top: 200px;
+}
+
+.text01 p {
+    font-family: 'Trueno';
+    color: #394D72;
+    font-size: 23px;
+    text-align: right;
+    line-height: 100%;
+    float: right;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.cadastro {
+    width: 100%;
+    max-width: 520px;
+}
+
+.submit {
+    align-self: center;
+    width: 254px;
+    padding: 10px;
+    color: white;
+    background-color: #6AB1EF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Trueno';
+    font-size: 20px;
+    font-style: bold;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Trueno';
+    font-size: 16px;
+}
